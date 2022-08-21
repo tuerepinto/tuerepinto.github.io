@@ -1,20 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style>
-    .img-container {
-        text-align: center;
-        display: block;
-    }
-</style>
-
-<body>
-    <h1 style="text-align:center">Bem vindo(a) ao meu perfil!</h1>
-    <h3 style="text-align:center">Perfil em construção.</h3>
-
-    <div class="img-container">
-        <img src="images/image_profile.jpg" alt="Imagem de Perfil" style="width: 293px;" />
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tuerê Pinto - a codding landing page template for codrops</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+  </head>
+  <body>
+    <div class="hero">
+      <h1 class="hero__title">Tuerê Pinto</h1>
+      <p class="hero__description">Desenvolvedor back-end, estudante e palestrante de tecnologias Java & Kotlin.</p>
     </div>
-</body>
-
+    <div class="hero__terminal">
+      <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">tuerepinto.github.io ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Perfil</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">profissional</li>
+            <li class="tab" data-tab="linux">acadêmico</li>
+            <li class="tab" data-tab="win">pessoal</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">$ cd ~/back-end/developer</code>
+            <code class="tab__pane linux">$ apt-get install speaker-java | speaker-Kotlin | all-technologic</code>
+            <code class="tab__pane win">$ mkdir ~/back-end/developer/skill_alexa</code>
+          </pre>
+        </div>
+      </div>
+      <!-- TODO Atividades -->
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Carreira Java</h3>
+          <p>Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Carreira Kotlin</h3>
+          <p>Save your file in Dropbox then you can access to it from anywhere.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Carreira .Net</h3>
+          <p>Encrypt your notes optionally. No one can get to your secrets! </p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Estudos Go Lang</h3>
+          <p>Maintain all your settings in a single <span class="code code--inline">config.json</span> file. Never need to redo the setting every single time jotting down a note.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Palestra TDC</h3>
+          <p>For better readability, scribbler has a clean, beautiful color scheme allow you to scan files fast.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Palestra on-line</h3>
+          <p>You can expect common keybindings for scribbler. Customize <span class="code code--inline">bindings.json</span> for your own liking! </p>
+        </div>
+      </div>
+      <!-- TODO Java / .net / kotlin etc... -->
+      <div class="keybinding">
+        <ul class="keybinding__detail">
+          <h3 class="keybinding__title">Hard skills</h3>
+          <li>Quit without saving <span class="keybinding__label">Ctrl+C</span></li>
+          <li>Save <span class="keybinding__label">Cmd+S</span></li>
+          <li>Save and Quit <span class="keybinding__label">Ctrl+D</span></li>
+          <li>Undo <span class="keybinding__label">Cmd+Z</span></li>
+        </ul>
+        <ul class="keybinding__detail">
+          <h3 class="keybinding__title">Soft skills</h3>
+          <li><span class="keybinding__label">Ctrl+A</span> Insert Link Markdown</li>
+          <li><span class="keybinding__label">Ctrl+I</span> Insert Image Markdown</li>
+          <li><span class="keybinding__label">Ctrl+V</span> Insert YouTube Video</li>
+          <li><span class="keybinding__label">Ctrl+T</span> Insert Table</li>
+        </ul>
+      </div>
+    </div>
+    <script src="scribbler.js"></script>
+  </body>
 </html>
