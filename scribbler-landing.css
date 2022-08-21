@@ -115,6 +115,13 @@ nav {
   vertical-align: middle;
 }
 
+.keybinding__progress{
+  background: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+
 /* callout section */
 .callout {
   text-align: center;
