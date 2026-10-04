@@ -162,6 +162,52 @@ nav {
   text-align: center;
 }
 
+/* timeline (formação / trajetória profissional) */
+.timeline {
+  border-left: 2px solid var(--code-bg-color);
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.timeline__item {
+  margin-bottom: 2rem;
+}
+
+.timeline__title {
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+}
+
+/* skills / certificações section */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skills__group {
+  flex: 1;
+  min-width: 250px;
+}
+
+.skills__group h3 {
+  color: var(--primary-color);
+}
+
+.skills__group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills__group li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--code-bg-color);
+  font-weight: 300;
+  color: #4A4A4A;
+}
+
 @media (max-width: 750px) {
   .hero__terminal {
     width: 70%;
@@ -174,7 +220,7 @@ nav {
   .tab__container .code {
     margin-top: 2rem;
   }
-  .feature, .keybinding, .changelog__item {
+  .feature, .keybinding, .changelog__item, .skills {
     flex-direction: column;
   }
   .feature__item {
