@@ -1,90 +1,193 @@
-<!doctype html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Tuerê Pinto - a codding landing page template for codrops</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
-      <link rel="stylesheet" href="scribbler-global.css">
-      <link rel="stylesheet" href="scribbler-landing.css">
-  </head>
-  <body>
-    <div class="hero">
-      <h1 class="hero__title">Tuerê Pinto</h1>
-      <p class="hero__description">Desenvolvedor back-end, estudante e palestrante de tecnologias Java & Kotlin.</p>
-    </div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuerê Pinto | Arquiteto de Soluções</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scribblerglobal.css">
+  <link rel="stylesheet" href="scribblerlanding.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo"></div>
+    <ul class="menu">
+      <li class="menu__item"><a class="link link--dark" href="#sobre">Sobre</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#formacao">Formação</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#experiencia">Experiência</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#certificacoes">Certificações</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#palestras">Palestras</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#projetos">Projetos</a></li>
+      <li class="menu__item"><a class="link link--dark" href="#contato">Contato</a></li>
+      <li class="menu__item toggle"><span></span></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="sobre">
+    <h1 class="hero__title">Tuerê Pinto</h1>
+    <p class="hero__description">Platform & Engineering Architecture Specialist &middot; Belo Horizonte, MG</p>
+
     <div class="hero__terminal">
-      <pre>
-        <!-- Place your demo code here -->
-        <code class="shell-session demo">tuerepinto.github.io ~ $ </code>
-      </pre>
+      <pre class="demo"></pre>
     </div>
+
+    <div class="callout">
+      <a class="button--primary" href="https://www.linkedin.com/in/tuerepinto/" target="_blank" rel="noopener">
+        Ver perfil no LinkedIn
+      </a>
+      <a class="button--secondary" href="https://github.com/tuerepinto" target="_blank" rel="noopener">
+        Ver GitHub
+      </a>
+    </div>
+  </header>
+
+  <section class="section js-section" id="formacao">
     <div class="wrapper">
-      <div class="installation">
-        <h3 class="section__title">Perfil</h3>
-        <div class="tab__container">
-          <ul class="tab__menu">
-            <li class="tab active" data-tab="mac">profissional</li>
-            <li class="tab" data-tab="linux">acadêmico</li>
-            <li class="tab" data-tab="win">pessoal</li>
-          </ul>
-          <pre class="nohighlight code">
-            <code class="tab__pane active mac">$ cd ~/back-end/developer</code>
-            <code class="tab__pane linux">$ apt-get install speaker-java | speaker-Kotlin | all-technologic</code>
-            <code class="tab__pane win">$ mkdir ~/back-end/developer/skill_alexa</code>
-          </pre>
+      <h2 class="section__title">Formação</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <h3 class="timeline__title">PUC Minas</h3>
+          <p>Pós-graduação em Inteligência Artificial e Aprendizado de Máquina. Trabalho de Conclusão de Curso (TCC) focado em um Smart Order Router inteligente para o mercado de capitais brasileiro, combinando Deep Q-Learning (DQN) e Mixture of Experts (MoE) para otimização de execução de ordens.</p>
         </div>
       </div>
-      <!-- TODO Atividades -->
+    </div>
+  </section>
+
+  <section class="section js-section" id="experiencia">
+    <div class="wrapper">
+      <h2 class="section__title">Trajetória Profissional</h2>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <h3 class="timeline__title">Especialista Arquitetura de Soluções &middot; Itaú Unibanco</h3>
+          <p>Atuação na área de investimentos do maior banco da América Latina, projetando e evoluindo soluções em AWS elásticas, performáticas e tolerantes a falhas, liderando ADRs, ARBs e definição de arquitetura alvo e roadmap técnico.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Solution Architect &middot; Itaú Unibanco</h3>
+          <p>Arquitetura de soluções para plataformas transacionais complexas no domínio de investimentos, com foco em resiliência, observabilidade e governança técnica.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Software Architect &middot; Inter</h3>
+          <p>Definição de arquitetura de software e padrões de engenharia para produtos digitais do banco.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Specialist Developer &middot; Inter</h3>
+          <p>Desenvolvimento especializado de soluções back-end de alta qualidade.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Software Development Analyst &middot; Squadra Tecnologia</h3>
+          <p>Análise e desenvolvimento de sistemas corporativos.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Senior Systems Developer &middot; Framework</h3>
+          <p>Desenvolvimento sênior de sistemas, atuação desde 2015 como desenvolvedor back-end.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Business Development Trainee &middot; CI&T</h3>
+          <p>Início de carreira em tecnologia com foco em desenvolvimento de negócios e tecnologia.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">Trainee em Tecnologia da Informação &middot; Construtora Concreto</h3>
+          <p>Primeiras experiências em TI corporativa.</p>
+        </div>
+
+        <div class="timeline__item">
+          <h3 class="timeline__title">IT Analyst &middot; Number One Language Solutions S.A.</h3>
+          <p>Análise de sistemas e suporte técnico em ambiente corporativo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section js-section" id="certificacoes">
+    <div class="wrapper">
+      <h2 class="section__title">Certificações</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Certificações Técnicas</h3>
+          <ul>
+            <li>Arquitetura de Soluções – Expert (pt-BR) &middot; Itaú Unibanco</li>
+            <li>Practitioner - D&A Foundation &middot; Itaú Unibanco</li>
+            <li>Introduction to FinOps &middot; FinOps Foundation</li>
+            <li>Conquistas verificadas &middot; O'Reilly Media</li>
+          </ul>
+        </div>
+
+        <div class="skills__group">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>Arquitetura de Soluções & AWS</li>
+            <li>Java &middot; Kotlin &middot; Python &middot; Go</li>
+            <li>Microsserviços & Event-Driven Architecture</li>
+            <li>FinOps & Continuous Architecture</li>
+            <li>IA Generativa & Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section js-section" id="palestras">
+    <div class="wrapper">
+      <h2 class="section__title">Palestras & Destaques</h2>
       <div class="feature">
         <div class="feature__item">
-          <h3 class="section__title">Carreira Java</h3>
-          <p>Texto em processo de escrita...</p>
+          <h3 class="section__title">TDC 2026 São Paulo</h3>
+          <p>Palestrante na trilha de Agentes de IA com o tema "Além do Hype: Agente Autônomo", apresentando um Smart Order Router com DQN + MoE para redução de slippage no mercado financeiro.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Carreira Kotlin</h3>
-          <p>Texto em processo de escrita...</p>
+          <h3 class="section__title">Pesquisa Aplicada</h3>
+          <p>TCC sobre roteamento inteligente de ordens, com simulador de Limit Order Book (LOB) de Nível 2 e comparação com heurísticas clássicas como TWAP.</p>
         </div>
         <div class="feature__item">
-          <h3 class="section__title">Carreira .Net</h3>
-          <p>Texto em processo de escrita...</p>
+          <h3 class="section__title">Artigos sobre Arquitetura</h3>
+          <p>Publicações sobre Arquitetura Contínua, MVA (Minimum Viable Architecture), ArchOps, FinOps e trade-offs em sistemas distribuídos.</p>
         </div>
-        <div class="feature__item">
-          <h3 class="section__title">Estudos Go Lang</h3>
-          <p>Texto em processo de escrita...</p>
-          <!-- texto em formato de codigo -->
-          <!-- <span class="code code--inline">config.json</span> file. Never need to redo the setting every single time jotting down a note. -->
-        </div>
-        <div class="feature__item">
-          <h3 class="section__title">Palestra TDC</h3>
-          <p>Texto em processo de escrita...</p>
-        </div>
-        <div class="feature__item">
-          <h3 class="section__title">Palestra on-line</h3>
-          <p>Texto em processo de escrita...</p>
-        </div>
-      </div>
-      <!-- TODO Java / .net / kotlin etc... -->
-      <div class="keybinding">
-        <ul class="keybinding__detail">
-          <h3 class="keybinding__title">Hard skills</h3>
-          <li>Java <span class="keybinding__label"> Back-end </li>
-          <li>Kotlin <span class="keybinding__label"> Back-end </span></li>
-          <li>.Net <span class="keybinding__label"> Back-end | xamarin </span></li>
-          <li>Go Lang <span class="keybinding__label"> Back-end </span></li>
-        </ul>
-        <ul class="keybinding__detail">
-          <h3 class="keybinding__title">Soft skills</h3>
-          <li><span class="keybinding__label">Analista</span> Arquiteto de soluções</li>
-          <li><span class="keybinding__label">Sênior</span> Analise e desenvolvimento</li>
-          <li><span class="keybinding__label">Sênior</span> Analise e desenho</li>
-          <li><span class="keybinding__label">Pleno</span> Cultura DevOps</li>
-        </ul>
       </div>
     </div>
-    <script src="scribbler.js"></script>
-  </body>
+  </section>
+
+  <section class="section js-section" id="projetos">
+    <div class="wrapper">
+      <h2 class="section__title">Projetos</h2>
+
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Smart Order Router com DQN + MoE</h3>
+          <p>
+            Agente autônomo de Deep Reinforcement Learning aplicado à microestrutura da B3,
+            combinando Deep Q-Learning e Mixture of Experts para otimizar a execução de ordens
+            institucionais, reduzindo slippage e impacto de mercado frente a baselines como
+            TWAP e VWAP. Projeto desenvolvido como TCC em IA aplicada a Finanças Quantitativas,
+            com ambiente de simulação de Limit Order Book Nível 2 e testes automatizados.
+          </p>
+          <p>
+            <a class="link link--dark" href="https://github.com/tuerepinto/tcc-sor-dql-moe" target="_blank" rel="noopener">
+              Ver repositório no GitHub →
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <h2>Vamos conversar?</h2>
+    <p>
+      <a class="link link--light" href="https://www.linkedin.com/in/tuerepinto/" target="_blank" rel="noopener">LinkedIn</a>
+      &middot;
+      <a class="link link--light" href="https://github.com/tuerepinto" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="scribbler.js"></script>
+</body>
 </html>
